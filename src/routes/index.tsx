@@ -6,6 +6,7 @@ import PrayersPage from "@/pages/prayers";
 import HomePage from "@/pages/home";
 import ErrorPage from "@/pages/error";
 import LoginPage from "@/pages/login";
+import RegisterPage from "@/pages/register";
 
 export const routes = createBrowserRouter([
   {
@@ -18,6 +19,7 @@ export const routes = createBrowserRouter([
       { path: "praying-for", element: <PrayingForPage /> },
       { path: "my-prayers", element: <MyPrayersPage /> },
       { path: "login", element: <LoginPage /> },
+      { path: "register", element: <RegisterPage /> },
     ],
   },
 ]);
