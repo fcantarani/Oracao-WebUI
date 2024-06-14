@@ -1,12 +1,12 @@
 import HeaderComponent from "./components/header";
-import HomePage from "./pages/home";
+import PrayersPage from "./pages/prayers";
 
 export default function App() {
   return (
     <>
       <HeaderComponent />
       <div className="mx-auto">
-        <HomePage />
+        <PrayersPage />
       </div>
     </>
   );
